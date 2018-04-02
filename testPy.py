@@ -1,5 +1,15 @@
 #!usr/bin/python3
 
+def strToNum(numIn):
+	try:
+		return int(numIn)
+	except ValueError:
+		return float(numIn)
+	except:
+		print("Error converting string")
+		return 0
+
+
 print("Testing out GIT")
 
 teststr = ""
@@ -9,4 +19,13 @@ while (1):
 	if teststr == "quit":
 		quit()
 	else:
-		print("You are exactly " + teststr + " hungry.")
+		testNum = strToNum(teststr)
+		
+	if testNum > 7:
+		print("You are extremely hungry. Eat a red cross parcel")
+	elif testNum > 5:
+		print ("You are significantly hungry. Eat some samosa.")
+	elif testNum > 3:
+		print("You are mildly peckish. Eat a Snickers.")
+	else:
+		print("You are not hungry enough, scrub.")
