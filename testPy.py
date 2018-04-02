@@ -22,7 +22,7 @@ while (1):
 		testNum = strToNum(teststr)
 		
 	if testNum > 7:
-		print("You are extremely hungry. Eat a red cross parcel")
+		print("You are extremely hungry. Eat a butterfinger")
 	elif testNum > 5:
 		print ("You are significantly hungry. Eat some samosa.")
 	elif testNum > 3:
