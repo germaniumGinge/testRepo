@@ -28,6 +28,5 @@ while (1):
 	elif testNum > 3:
 		print("You are mildly peckish. Eat a Snickers.")
 		print("Alternatively, eat a Lion bar.")
-		print("Why not eat a yorkie?")
 	else:
 		print("You are not hungry enough, scrub.")
