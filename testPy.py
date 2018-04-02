@@ -29,3 +29,17 @@ while (1):
 		print("You are mildly peckish. Eat a Snickers.")
 	else:
 		print("You are not hungry enough, scrub.")
+	
+	valid = 0
+	while (valid == 0):
+		valid = 1
+		areLion = input ("Are you a lion? Y/N")
+		if areLion == 'y' or areLion == 'Y':
+			print("Glad to see a fellow lion of culture round these parts")
+		elif areLion == 'n' or areLion == 'N':
+			print("TO THE BALLPIT WITH YOUUUU")
+		else:
+			valid = 0
+			print("Invalid input")
+		
+	
