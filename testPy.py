@@ -30,5 +30,20 @@ while (1):
 		print("Alternatively, eat a Lion bar.")
 	else:
 		print("You are not hungry enough, scrub.")
+<<<<<<< HEAD
 	
 	print ("This is a merger test, watch out friendos")
+=======
+	valid = 0
+	lion = input("Are you a lion? Y/N ")
+	while not valid:
+		if lion == 'Y' or lion == 'y':
+			valid = 1
+			print("Glad to see a fellow lion of culture around these parts")
+		elif lion == 'N' or lion == 'n':
+			valid = 1
+			print("Then you will be banished to AN EXTRA HOUR IN THE BALL PIT")
+		else:
+			print("This is a serious question, Jeremy")
+		
+>>>>>>> Lion
